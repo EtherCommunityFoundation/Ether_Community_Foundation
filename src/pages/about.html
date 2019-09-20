@@ -36,13 +36,11 @@
                                 <a href="./ether_ecology.html"><label class="i18n" name="people">Ether ecology</label></a>
                             </li>
                             <li>
-                                <a href=""><label class="i18n" name="aboutUs">Ether community</label></a>
+                                <a href="./ether_community.html"><label class="i18n" name="aboutUs">Ether community</label></a>
                             </li>
                             <li>
-                                <a href=""><label class="i18n" name="vip">Team</label></a>
+                                <a href="./team.html"><label class="i18n" name="vip">Team</label></a>
                             </li>
-                            <!-- 语言选择 -->
-
                         </ul>
                         <div class="lan lang">
                             <div class="lan2">
@@ -61,35 +59,24 @@
         <div class="about_us">
             <h1>About Us</h1>
             <h2>1. Company Profile:</h2>
-            <p>The Ethereum Foundation is an international organization approved by the US government to promote global
-                economic, financial, cultural, educational, and economic exchanges and cooperation, independent,
-                non-partisan, and non-public. Since its establishment in 2014, the Foundation has played an important
-                role in the extensive friendly and cooperative relations with relevant government departments, cultural
-                institutions, scientific research institutions, economic and trade enterprises, community organizations
-                and people from all walks of life, especially in cultural exchanges and cultural finance. In 2014, the
-                Foundation focused on blockchain investment and has invested in more than 80 blockchain projects over
-                the past five years.</p>
-            <p>The Ethereum Foundation is one of the most prestigious and independent non-governmental foundation
-                organizations in the world.</p>
-            <p>The Ethereum Foundation has eight global offices with more than 100 full-time employees. Over the past
-                five years, more than 1,000 cooperative enterprises and organizations have had extensive cooperative
-                relations with government departments, cultural institutions and scientific research institutions on all
-                continents.</p>
+            <p>The Ethereum Foundation is an international organization approved by the US government to promote global economic, financial, cultural, educational, and economic exchanges and cooperation, independent, non-partisan, and non-public. Since its
+                establishment in 2014, the Foundation has played an important role in the extensive friendly and cooperative relations with relevant government departments, cultural institutions, scientific research institutions, economic and trade enterprises,
+                community organizations and people from all walks of life, especially in cultural exchanges and cultural finance. In 2014, the Foundation focused on blockchain investment and has invested in more than 80 blockchain projects over the past
+                five years.</p>
+            <p>The Ethereum Foundation is one of the most prestigious and independent non-governmental foundation organizations in the world.</p>
+            <p>The Ethereum Foundation has eight global offices with more than 100 full-time employees. Over the past five years, more than 1,000 cooperative enterprises and organizations have had extensive cooperative relations with government departments,
+                cultural institutions and scientific research institutions on all continents.
+            </p>
             <h2>2. Development history:</h2>
+            <h3>The Ethere Community Foundation was established in 2014 and is headquartered in the United States, officially entering the blockchain investment field.</h3>
             <section class="section gb timeline" id="time">
                 <div class="container">
-                    <!-- <div class="section-title text-center">
-                        <h3>發展歷程</h3>
-                    </div> -->
-                    <h3>The Ethere Community Foundation was established in 2014 and is headquartered in the United
-                        States, officially entering the blockchain investment field.</h3>
-                    <ul>
+                    <ul style="margin-left: 630px;">
                         <li>
                             <div>
                                 <time>Year 2014</time>
                                 <div class="discovery">
-                                    The Ethereum Foundation has opened the Ethereum Foundation Cultural Exchange Center
-                                    in the United States. <br>
+                                    The Ethereum Foundation has opened the Ethereum Foundation Cultural Exchange Center in the United States. <br>
                                 </div>
                             </div>
                         </li>
@@ -113,8 +100,7 @@
                             <div>
                                 <time>Year 2016</time>
                                 <div class="discovery">
-                                    The Ethereum Foundation has opened three shining cultural and financial exchange
-                                    centers in Frankfurt, Germany, London, and Paris, France.
+                                    The Ethereum Foundation has opened three shining cultural and financial exchange centers in Frankfurt, Germany, London, and Paris, France.
                                 </div>
                             </div>
                         </li>
@@ -138,13 +124,13 @@
                             <div>
                                 <time>Year 2019</time>
                                 <div class="discovery">
-                                    The Ethereum Foundation has established a strategic partnership with FVEX to promote
-                                    the community and ecological development of FVEX Token (FVT).
+                                    The Ethereum Foundation has established a strategic partnership with FVEX to promote the community and ecological development of FVEX Token (FVT).
                                 </div>
                             </div>
                         </li>
                     </ul>
-                </div><!-- end container -->
+                </div>
+                <!-- end container -->
             </section>
         </div>
 
@@ -167,11 +153,11 @@
         <!-- <script src="../../js/language.js"></script> -->
         <!-- <script src="../../js/common.js"></script> -->
         <script>
-            $(function () {
+            $(function() {
                 var $body = $('body');
-                $body.on('change', 'select:has(option[href])', function (e) {
+                $body.on('change', 'select:has(option[href])', function(e) {
                     var _this = $(this),
-                        _href = _this.find('option:selected').attr('href');//获取要跳转的地址
+                        _href = _this.find('option:selected').attr('href'); //获取要跳转的地址
                     location.href = _href; //跳转
                 })
             })
