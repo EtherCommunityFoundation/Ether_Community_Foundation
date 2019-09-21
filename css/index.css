@@ -402,20 +402,48 @@
      margin-right: 5%
  }
  
- .ether_community_2 {
-     margin-left: 5%;
-     margin-right: 5%
+ .ether_community_1 h1,
+ .ether_community_1 h3 {
+     text-align: center;
+     margin-top: 100px;
  }
  
- .ether_community_1 h1,
- .ether_community_2 h1 {
+ .ether_community_1 p {
+     text-align: center;
+     color: #666;
+     margin-left: 20px;
+     font-size: 20px;
+ }
+ 
+ .ether_community_2 {
+     margin-left: 5%;
+     margin-right: 5%;
+     margin-top: 100px;
      text-align: center;
  }
  
- .ether_community_1 p,
- .ether_community_2 p {
+ .eher_community_mes div {
+     width: 400px;
+     height: 300px;
+     display: inline-block;
+     /* float: left; */
+     margin-right: 40px;
+     vertical-align: top;
+ }
+ 
+ .eher_community_mes {
+     margin-top: 50px;
+     text-align: center;
+ }
+ 
+ .eher_community_mes div h2 {
+     font-size: 24px;
+     text-align: center;
+     font-weight: 200;
+ }
+ 
+ .eher_community_mes div p {
      color: #666;
-     margin-left: 20px;
  }
  
  .tit_ether {
